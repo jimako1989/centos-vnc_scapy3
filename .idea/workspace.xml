@@ -27,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/docker_run.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="67" lean-forward="true" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
+              <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -159,7 +159,7 @@
     <entry file="file://$PROJECT_DIR$/docker_run.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="67" lean-forward="true" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
           <folding />
         </state>
       </provider>
