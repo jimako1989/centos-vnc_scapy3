@@ -1,7 +1,7 @@
 FROM consol/centos-xfce-vnc
-FROM python:latest
+FROM centos/python-35-centos7
 MAINTAINER jimako1989
-RUN yum install -y tcpdump git \
+RUN yum -y install tcpdump git \
  && mkdir /tmp \
  && cd /tmp \
  && git clone https://github.com/phaethon/scapy \
