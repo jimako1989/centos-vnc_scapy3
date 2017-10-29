@@ -1,4 +1,4 @@
-FROM consol/centos-xfce-vnc
+FROM nutsllc/vnc-centos-gnome
 FROM centos/python-35-centos7
 MAINTAINER jimako1989
 USER root
