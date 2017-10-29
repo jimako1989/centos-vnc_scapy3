@@ -13,3 +13,4 @@
 .bash_history
 
 home/**/*
+!home/.gitkeep
