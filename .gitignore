@@ -12,4 +12,4 @@
 
 .bash_history
 
-./home/*
+home/**/*
