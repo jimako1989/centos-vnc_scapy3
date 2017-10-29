@@ -14,3 +14,7 @@ RUN yum install -y https://centos6.iuscommunity.org/ius-release.rpm \
  && git clone https://github.com/phaethon/scapy \
  && cd scapy \
  && python3 setup.py install
+
+COPY start_vnc_server.sh /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]
