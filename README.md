@@ -7,3 +7,5 @@ After make sure to create files under /home, you can connect to vnc client.
 ```
 open vnc://localhost:5901
 ```
+
+password : password
