@@ -4,9 +4,8 @@ USER root
 
 # To install rpm containing python35u, install it and then create its alias.
 RUN yum install -y https://centos6.iuscommunity.org/ius-release.rpm \
- && yum install -y python35u python35u-libs python35u-devel python35u-pip python36u-setuptools \
+ && yum install -y python35u python35u-libs python35u-devel python35u-pip python35u-setuptools \
  && ln -s /usr/bin/python3.5 /usr/bin/python3 \
- && unlink /usr/bin/python \
  && ln -s /usr/bin/pip3.5 /usr/bin/pip3 \
 
 # To install scapy
